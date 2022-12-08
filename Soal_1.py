@@ -1,8 +1,8 @@
 print('Selamat datang di program pembuat piramida berlubang')
-b=int(input('Masukkan angka; '))
+b = int(input('masukan angka: '))
 
-ruang = a - 1
-for i in range(n):
-    print(' '* ruang, end= '')
-    print('*' if = 0 else '**' if i ! == 0 and  != n-1 '*'(n*2-1 ))
+ruang = b-1 
+for i in range(b):
+    print(' '*ruang, end='')
+    print('*' if i == 0 else '**' if i != 0 and i != b-1 else '*'*(b*2-1))
     ruang -= 1
